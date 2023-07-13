@@ -3,6 +3,7 @@ import Navbar from '@/components/navbar/navbar'
 import Subtitle from '@/components/tipography/subtitle/subtitle'
 import Container from '@/components/container/container'
 import SaleCard from '@/components/cards/saleCard/caleCard'
+import Gamecard from '@/components/cards/gamecard/gamecard'
 
 import styles from '@/styles/index.module.css'
 
@@ -27,7 +28,10 @@ export default function Home() {
             </div>
           </div>
           <div className={styles.session}>
-            <Subtitle>Outros Jogos</Subtitle>            
+            <Subtitle>Outros Jogos</Subtitle> 
+            <div>
+              <Gamecard/>
+            </div>           
           </div>
         </Container>
       </div>
